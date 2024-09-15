@@ -21,17 +21,15 @@ This repository contains Tabular Model2 in the pipeline above.
     │   ├── sub73
     │   ├── sub75
     │   └── sub77
-    ├── exp11.ipynb
-    ├── exp20.ipynb
-    ├── exp28.ipynb
-    ├── exp7.ipynb
-    ├── exp_multiple.ipynb # main train script.
+    ├── past_train_img_scripts
+    ├── past_train_table_scripts
+    ├── main.ipynb # main train script.
     ├── isic_ensemble_table_only.ipynb 
     ├── isic_ensemble_with_img.ipynb
     └── past_img_train
 ```
 
 ## Running the Notebooks
-- To create the model, run exp_multiple.ipynb in Google Colab using GPU (T4) and High Memory settings (around 50GB).
+- To create the model, run main.ipynb in Google Colab using GPU (T4) and High Memory settings (around 50GB).
 - For verification of the ensemble code, execute the isic_ensemble_table_only.ipynb notebook.
   - Note: The actual final submission was created using isic_ensemble_with_img.ipynb, but due to the large size of out-of-fold data required, that notebook is too heavy to be hosted on GitHub.
